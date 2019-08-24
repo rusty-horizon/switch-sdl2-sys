@@ -1,2 +1,5 @@
 # switch-sdl2-sys
-devkitPro's switch-SDL2 wrappers
+
+> `sdl2` crate wrapping devkitPro's switch-SDL2
+
+- Features: `ttf` for sdl2_ttf, `image` for sdl2_image
