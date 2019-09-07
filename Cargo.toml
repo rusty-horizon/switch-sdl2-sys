@@ -1,14 +1,10 @@
 [package]
-name = "sdl2"
+name = "sdl2-sys"
 version = "0.1.0"
 authors = [ "XorTroll", "switchbrew", "SDL2 authors" ]
-links = "sdl2"
 
 [lib]
 crate_type = ["rlib"]
-
-[dependencies]
-cfg-if = "0.1"
 
 [build-dependencies]
 bindgen = "0.37.4"
@@ -17,4 +13,5 @@ cfg-if = "0.1"
 [features]
 default = []
 ttf = []
+mixer = []
 image = []
